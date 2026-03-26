@@ -1,0 +1,14 @@
+/docs/irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/nipponbare_genome/irgsp1_new_renamed.fasta.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_merge_sort.bed.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/seedling/seedling_merged_sorted.bed.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_cat.chr.sorted.bw filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep1.24.sorted.bed.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep2.24.sorted.bed.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/fertilized_ovary/fertilized_ovary_rep3.24.sorted.bed.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/seedling/seedling_cat.chr.sorted.bw filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/seedling/seedling_rep4.24.sorted.bed.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/seedling/seedling_rep6.24.sorted.bed.gz filter=lfs diff=lfs merge=lfs -text
+/docs/irgsp1/tracks_sorted/unfertilized_ovary/unfertilized_ovary_merged_sorted.bed.gz filter=lfs diff=lfs merge=lfs -text
+*.gz !text !filter !merge !diff
+*.bed !text !filter !merge !diff
