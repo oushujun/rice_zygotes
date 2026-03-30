@@ -99,6 +99,28 @@
     },
     {
       "type": "FeatureTrack",
+      "trackId": "Nipponbare Transposons",
+      "name": "Nipponbare Transposons",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/IRGSP-1.0_representative/all.con.mod.EDTA.TEanno.sorted.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/IRGSP-1.0_representative/all.con.mod.EDTA.TEanno.sorted.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Nipponbare"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
       "trackId": "Kitaake Genes",
       "name": "Kitaake Genes",
       "adapter": {
