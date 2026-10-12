@@ -48,29 +48,11 @@
   "configuration": {},
   "connections": [],
   "defaultSession": {
-    "name": "Default Genome Session - irgsp1",
-    "margin": 0,
+    "name": "Rice Zygotes Session",
     "views": [
       {
         "id": "linearGenomeView",
-        "minimized": false,
-        "type": "LinearGenomeView",
-        "init": {
-          "loc": "5:14,782,881..14,785,542",
-          "assembly": "Nipponbare",
-          "trackSelectorType": "hierarchical",
-          "trackSelectorCollapsed": false,
-          "tracks": [
-            
-            "Nipponbare Genes",
-            "egg_merged_coverage",
-            "fertilized_ovary_merged_coverage",
-            "seedling_merged_coverage",
-            "sperm_merged_coverage",
-            "unfertilized_ovary_merged_coverage",
-            "zygote_merged_coverage"
-          ]
-        }
+        "type": "LinearGenomeView"
       }
     ]
   },
