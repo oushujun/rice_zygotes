@@ -2,7 +2,7 @@ name: Deploy JBrowse to Pages
 
 on:
   push:
-    branches: ["latest-branch"]
+    branches: ["latest-branch", "viewer-updates"]
   workflow_dispatch:
 
 permissions:
